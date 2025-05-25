@@ -1,0 +1,202 @@
+/*Home*/
+#Home{
+    -fx-background-color: #13071f;
+}
+#header{
+    -fx-text-fill: yellow;
+}
+#descr{
+    -fx-text-fill: #09ed20;
+}
+#btn1{
+    -fx-padding: 10px;
+    -fx-border-color: #eb0cc2;
+    -fx-background-color: #13071f;
+    -fx-border-width: 5px;
+    -fx-border-radius: 10px;
+    -fx-cursor: hand;
+    -fx-text-fill: blanchedalmond;
+}
+#btn1:hover{
+    -fx-background-color: blanchedalmond;
+    -fx-text-fill: black;
+    -fx-translate-y: -5;
+    -fx-border-color: blanchedalmond;
+    -fx-border-width: 5px;
+    transition: all 1s ease;
+}
+#btn2{
+    -fx-padding: 10px;
+    -fx-border-color: #eb0cc2;
+    -fx-background-color: #13071f;
+    -fx-border-width: 5px;
+    -fx-border-radius: 10px;
+    -fx-cursor: hand;
+    -fx-text-fill: blanchedalmond;
+}
+#btn2:hover{
+    -fx-background-color: blanchedalmond;
+    -fx-text-fill: black;
+    -fx-translate-y: -5;
+    -fx-border-color: blanchedalmond;
+    -fx-border-width: 5px;
+    transition: all 1s ease;
+}
+#btn3{
+    -fx-padding: 10px;
+    -fx-border-color: #eb0cc2;
+    -fx-background-color: #13071f;
+    -fx-border-width: 5px;
+    -fx-border-radius: 10px;
+    -fx-cursor: hand;
+    -fx-text-fill: blanchedalmond;
+}
+#btn3:hover{
+    -fx-background-color: blanchedalmond;
+    -fx-text-fill: black;
+    -fx-translate-y: -5;
+    -fx-border-color: blanchedalmond;
+    -fx-border-width: 5px;
+    transition: all 1s ease;
+}
+#btn4{
+    -fx-padding: 10px;
+    -fx-border-color: #eb0cc2;
+    -fx-background-color: #13071f;
+    -fx-border-width: 5px;
+    -fx-border-radius: 10px;
+    -fx-cursor: hand;
+    -fx-text-fill: blanchedalmond;
+}
+#btn4:hover{
+    -fx-background-color: blanchedalmond;
+    -fx-text-fill: black;
+    -fx-translate-y: -5;
+    -fx-border-color: blanchedalmond;
+    -fx-border-width: 5px;
+    transition: all 1s ease;
+}
+/*Multi-Server*/
+#multi{
+-fx-background-color: #290209;    
+}
+#btn5{
+     -fx-padding: 10px;
+    -fx-background-color: linear-gradient(to right ,rgb(65, 3, 110), rgb(13, 13, 252));
+    -fx-border-width: 5px;
+    -fx-border-radius: 25px;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+        transition: all 1s ease;
+}
+#btn5:hover{
+    -fx-background-color:#180066;
+}
+#multiLabel{
+    -fx-text-fill: aquamarine;
+}
+#err{
+    -fx-text-fill: red;
+}
+#start1{
+      -fx-padding: 10px;
+    -fx-background-color: linear-gradient(to left ,#052461, #0aff43);
+    -fx-border-width: 5px;
+    -fx-border-radius: 25px;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+        transition: all 1s ease;
+}
+#start1:hover{
+    -fx-background-color:#021e3b;
+}
+/*Classical Inventory*/
+#classical_Inventory{
+    -fx-background-color: #022614;
+}
+#classical_label{
+    -fx-text-fill: #a9fc03;
+}
+#btn6_back{
+        -fx-padding: 10px;
+    -fx-background-color: linear-gradient(to right ,yellow, goldenrod);
+    -fx-border-width: 5px;
+    -fx-border-radius: 25px;
+    -fx-cursor: hand;
+    -fx-text-fill: black;
+        transition: all 1s ease;
+}
+#btn6_back:hover{
+    -fx-background-color:#456602;
+}
+#start2{
+    -fx-padding: 10px;
+    -fx-background-color: linear-gradient(to right ,greenyellow, green);
+    -fx-border-width: 5px;
+    -fx-border-radius: 25px;
+    -fx-cursor: hand;
+    -fx-text-fill: black;
+        transition: all 1s ease;
+}
+#start2:hover{
+    -fx-background-color:darkgreen;
+}
+/*(M ,N) Inventory*/
+#MN_inventory{
+    -fx-background-color: rgb(0, 1, 42);
+}
+#MN_title{
+    -fx-text-fill: blanchedalmond;
+}
+#btn7_back{
+     -fx-padding: 10px;
+    -fx-background-color: linear-gradient(to right ,blanchedalmond, beige, bisque);
+    -fx-border-width: 5px;
+    -fx-border-radius: 25px;
+    -fx-cursor: hand;
+    -fx-text-fill: black;
+        transition: all 1s ease;
+}
+#btn7_back:hover{
+    -fx-background-color: #919491;
+}
+#start3{
+     -fx-padding: 10px;
+    -fx-background-color: linear-gradient(to left ,red,#6e0404);
+    -fx-border-width: 5px;
+    -fx-border-radius: 25px;
+    -fx-cursor: hand;
+    -fx-text-fill: white;
+        transition: all 1s ease;
+}
+#start3:hover{
+        -fx-background-color:#300202;
+}
+/*Event Scheduling*/
+#event_sch{
+    -fx-background-color: #042526;
+}
+#start4{
+    -fx-background-color: #acabd6;
+         -fx-padding: 10px;
+    -fx-border-width: 5px;
+    -fx-border-radius: 25px;
+    -fx-cursor: hand;
+    -fx-text-fill: black;
+        transition: all 1s ease;
+}
+#start4:hover{
+        -fx-background-color:#414161;
+}
+#btn8_back{
+        -fx-background-color: #bdfffe;
+         -fx-padding: 10px;
+    -fx-border-width: 5px;
+    -fx-border-radius: 25px;
+    -fx-cursor: hand;
+    -fx-text-fill: black;
+        transition: all 1s ease;
+}
+#btn8_back:hover{
+        -fx-background-color:#538281;
+}

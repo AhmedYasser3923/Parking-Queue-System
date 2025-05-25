@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Home" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="777.0" prefWidth="1000.0" style="-fx-background-color: #13071f;" stylesheets="@main.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.FXMLDocumentController">
+   <children>
+      <Button fx:id="btn4" layoutX="546.0" layoutY="586.0" mnemonicParsing="false" onAction="#Switch_to_EventScheduling" prefHeight="64.0" prefWidth="358.0" stylesheets="@main.css" text="Event Scheduling">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font></Button>
+      <Label fx:id="header" layoutX="413.0" layoutY="32.0" prefHeight="42.0" prefWidth="205.0" stylesheets="@main.css" text="Car Parking">
+         <font>
+            <Font name="Times New Roman Bold" size="36.0" />
+         </font></Label>
+      <Label fx:id="descr" layoutX="36.0" layoutY="117.0" stylesheets="@main.css" text="Description:" underline="true">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="409.0" prefHeight="35.0" prefWidth="321.0" text="Choose Simulation Type:" textFill="#df0808" underline="true">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn1" layoutX="45.0" layoutY="487.0" mnemonicParsing="false" onAction="#Switch_to_MultiServer" prefHeight="64.0" prefWidth="358.0" stylesheets="@main.css" text="Multi-Server">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn2" layoutX="546.0" layoutY="490.0" mnemonicParsing="false" onAction="#Switch_to_Classical_Inventory" prefHeight="66.0" prefWidth="358.0" stylesheets="@main.css" text="Classical Inventory Simulation ">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn3" layoutX="48.0" layoutY="586.0" mnemonicParsing="false" onAction="#Switch_to_MN_Inventory" prefHeight="64.0" prefWidth="358.0" stylesheets="@main.css" text="(M,N) Inventory Simulation ">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font></Button>
+      <TextArea editable="false" layoutX="48.0" layoutY="166.0" prefHeight="200.0" prefWidth="806.0" text="A car parking simulation project is a computational model designed to simulate the dynamics of a parking facility, incorporating various operational strategies and customer behaviors. This type of simulation project typically includes several key components:&#10;&#10;**Multi-Server Simulation:**&#10;This simulates a parking facility with multiple points of service, such as entry and exit gates or payment kiosks. It aims to analyze and optimize the flow of cars through the parking area by managing multiple servers, reducing wait times, and improving space utilization. The performance metrics might include average service time, queue length, and server utilization rates.&#10;&#10;**Classical Inventory Models:**&#10;In the context of a car parking simulation, classical inventory models might be used to manage parking space as inventory. The objective is to maintain an optimal level of &quot;stock&quot; (available parking spots) to meet demand without over- or under-supplying. This could involve determining optimal reorder points (when to open up more parking spaces) and order quantities (how many spaces to add).&#10;&#10;**(M,N) Inventory Models:**&#10;The (M,N) inventory systems are a variant of classical inventory models where 'M' stands for the maximum inventory level, and 'N' represents the reorder level. Applied to car parking, this could mean setting a maximum capacity for the parking lot and a threshold for when to start directing cars to an overflow area or another facility to prevent overcrowding and excessive wait times.&#10;&#10;**Event Scheduling:**&#10;Event scheduling is a critical component in simulation that deals with the timing of various actions and events within the system. In the car parking simulation, this would involve scheduling events such as arrivals and departures of cars, the opening and closing of gates, and the servicing of customers. The system would use a calendar of events to trigger actions at specific times, ensuring the simulation reflects the real-world processes as closely as possible.&#10;&#10;Overall, a car parking simulation project aims to replicate the functioning of a real-world parking facility and to predict the outcomes of different management strategies. It can be a vital tool for parking administrators to make data-driven decisions, optimize the use of resources, and enhance customer satisfaction.">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
